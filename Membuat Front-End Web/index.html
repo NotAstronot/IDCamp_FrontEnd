@@ -17,8 +17,8 @@
 <body>
         <div align ="center">
             <h2>Its Cube Time!</h2>
-            <img id="gambar"
-                    src="../assets/farm-house.jpg" alt="Its a farm house!" width="150" height="100">
+            <img id="gambar" 
+                    src="../assets/farm-house.jpg" alt="Its a farm house!" setAttribute(width="300" height="215")>
             <p id="caption"><b>sudah siap memecahkan teka-teki tersebut?</b></p>
             <div class="button-group">
                 <div class="button">
@@ -40,3 +40,8 @@
         </div>
 </body>
 </html>
+
+<script>
+    const buttons = document.querySelectorAll("button");
+    playButtonElement.setAttribute('children', 'submit');
+</script>
